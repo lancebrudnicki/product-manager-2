@@ -3,7 +3,7 @@ import axios from 'axios';
 import Product from "../componets/Product";
 import Productlist from '../componets/Productlist'
 
-export default () => {
+const Main = props  => {
     const [product, setProduct] = useState([]);
 
     useEffect(()=>{
@@ -19,3 +19,4 @@ export default () => {
         </>
     )
 }
+export default Main;
