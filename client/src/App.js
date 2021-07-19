@@ -1,8 +1,8 @@
 import React from 'react';
-import Main from './veiws/Main';
+import Main from './views/Main';
 import { Router } from '@reach/router';
 import Productdetail from './views/Productdetail';
-import Main from './views/Main'
+
 
 function App() {
   return (
